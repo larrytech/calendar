@@ -1,0 +1,20 @@
+{
+    "name": "larrytech/calendar",
+    "description": "",
+    "keywords": ["calendar", "larrytech"],
+    "require": {
+        "illuminate/database": "4.2.*",
+        "monolog/monolog": "1.7.*",
+        "mockery/mockery": "0.9.x",
+        "nesbot/carbon": "1.6.*"
+    },
+    "autoload": {
+        "classmap": [
+            "tests"
+        ],
+        "psr-0": {
+            "Larrytech\\Calendar": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
